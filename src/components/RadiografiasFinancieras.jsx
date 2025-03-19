@@ -138,33 +138,42 @@ const RadiografiasFinancieras = () => {
       </div>
 
       {/* Carrusel de logos de empresas */}
-      <div className="bg-white py-8 overflow-hidden">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center mb-6">
-            <h3 className="text-lg font-medium text-gray-900">Empresas que han confiado en mí:</h3>
-          </div>
-          <div className="relative overflow-hidden py-4">
-            <div className="inline-flex flex-nowrap animate-marquee">
-              <div className="flex items-center justify-around mr-8 md:mr-16 whitespace-nowrap">
-                <img src="/placeholder/cisco.png" alt="Cisco" className="h-10 md:h-12 object-contain mx-4 md:mx-8" />
-                <img src="/placeholder/expansion.png" alt="Expansion" className="h-10 md:h-12 object-contain mx-4 md:mx-8" />
-                <img src="/placeholder/fedex.png" alt="FedEx" className="h-10 md:h-12 object-contain mx-4 md:mx-8" />
-                <img src="/placeholder/heineken.png" alt="Heineken" className="h-10 md:h-12 object-contain mx-4 md:mx-8" />
-                <img src="/placeholder/santander.png" alt="Santander" className="h-10 md:h-12 object-contain mx-4 md:mx-8" />
-                <img src="/placeholder/tec.png" alt="Tecnológico de Monterrey" className="h-10 md:h-12 object-contain mx-4 md:mx-8" />
-              </div>
-              <div className="flex items-center justify-around whitespace-nowrap">
-                <img src="/placeholder/cisco.png" alt="Cisco" className="h-10 md:h-12 object-contain mx-4 md:mx-8" />
-                <img src="/placeholder/expansion.png" alt="Expansion" className="h-10 md:h-12 object-contain mx-4 md:mx-8" />
-                <img src="/placeholder/fedex.png" alt="FedEx" className="h-10 md:h-12 object-contain mx-4 md:mx-8" />
-                <img src="/placeholder/heineken.png" alt="Heineken" className="h-10 md:h-12 object-contain mx-4 md:mx-8" />
-                <img src="/placeholder/santander.png" alt="Santander" className="h-10 md:h-12 object-contain mx-4 md:mx-8" />
-                <img src="/placeholder/tec.png" alt="Tecnológico de Monterrey" className="h-10 md:h-12 object-contain mx-4 md:mx-8" />
-              </div>
-            </div>
-          </div>
+<div className="bg-white py-8 overflow-hidden">
+  <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div className="text-center mb-6">
+      <h3 className="text-lg font-medium text-gray-900">Empresas que han confiado en mí:</h3>
+    </div>
+    <div className="relative overflow-hidden py-4">
+      <div className="inline-flex flex-nowrap animate-marquee">
+        {/* Primer conjunto de logos */}
+        <div className="flex items-center whitespace-nowrap px-12">
+          <img src="/placeholder/cisco.png" alt="Cisco" className="h-12 md:h-16 object-contain mx-12" />
+          <img src="/placeholder/expansion.png" alt="Expansion" className="h-12 md:h-16 object-contain mx-12" />
+          <img src="/placeholder/fedex.png" alt="FedEx" className="h-12 md:h-16 object-contain mx-12" />
+          <img src="/placeholder/heineken.png" alt="Heineken" className="h-12 md:h-16 object-contain mx-12" />
+          <img src="/placeholder/santander.png" alt="Santander" className="h-12 md:h-16 object-contain mx-12" />
+          <img src="/placeholder/tec.png" alt="Tecnológico de Monterrey" className="h-12 md:h-16 object-contain mx-12" />
+          {/* Espacio extra extremadamente grande al final del primer grupo */}
+          <div style={{ width: '800px' }}></div>
+        </div>
+        
+        {/* Segundo conjunto de logos */}
+        <div className="flex items-center whitespace-nowrap px-12">
+          <img src="/placeholder/cisco.png" alt="Cisco" className="h-12 md:h-16 object-contain mx-12" />
+          <img src="/placeholder/expansion.png" alt="Expansion" className="h-12 md:h-16 object-contain mx-12" />
+          <img src="/placeholder/fedex.png" alt="FedEx" className="h-12 md:h-16 object-contain mx-12" />
+          <img src="/placeholder/heineken.png" alt="Heineken" className="h-12 md:h-16 object-contain mx-12" />
+          <img src="/placeholder/santander.png" alt="Santander" className="h-12 md:h-16 object-contain mx-12" />
+          <img src="/placeholder/tec.png" alt="Tecnológico de Monterrey" className="h-12 md:h-16 object-contain mx-12" />
+          {/* Espacio extra extremadamente grande al final del segundo grupo */}
+          <div style={{ width: '800px' }}></div>
         </div>
       </div>
+    </div>
+  </div>
+</div>
+
+
       
       {/* Servicios */}
       <div id="servicios" className="py-16 bg-white">
